@@ -39,6 +39,10 @@
               amber: '#FFB800',
               cobalt: '#0052FF',
             }
+          },
+          letterSpacing: {
+            luxury: '0.22em',
+            widest2: '0.18em',
           }
         }
       }
@@ -65,7 +69,10 @@
     body {
       background-color: #121413;
       color: var(--text-charcoal);
-      font-family: "Instrument Sans", sans-serif;
+      font-family: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk", sans-serif;
+      font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
       margin: 0;
       padding: 0;
       overflow: hidden;
@@ -75,6 +82,13 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+    }
+
+    .wordmark-spacing {
+      letter-spacing: 0.22em;
+    }
+    .switzerland-spacing {
+      letter-spacing: 0.28em;
     }
 
     
@@ -126,18 +140,16 @@
     /* Print Stylesheet: Native 16:9 Landscape PDF Export */
     @media print {
       @page {
-        size: 297mm 167mm; /* Exact 16:9 Landscape */
+        size: 297mm 167mm;
         margin: 0;
       }
       body {
         background-color: var(--bg-vanilla) !important;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
-        font-family: 'Instrument Sans', sans-serif !important;
-        overflow: visible !important;
-        height: auto !important;
-        width: auto !important;
-        display: block !important;
+        font-family: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk", sans-serif !important;
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11" !important;
+        -webkit-font-smoothing: antialiased !important;
       }
       #deck-viewport {
         max-width: none !important;
@@ -182,9 +194,9 @@
   <!-- Floating Presentation Toolbar (Screen only) -->
   <header class="no-print fixed top-4 z-50 flex items-center justify-between px-6 w-full max-w-7xl pointer-events-none">
     <div class="flex items-center gap-3 pointer-events-auto bg-[#1E2220]/90 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 text-white shadow-xl">
-      <div class="flex items-baseline gap-1.5">
-        <span class="font-bold tracking-[0.20em] text-xs text-white">MODU</span>
-        <span class="text-[8px] tracking-[0.25em] text-neutral-400 font-semibold">SWITZERLAND</span>
+      <div class="flex flex-col items-start">
+        <span class="font-sans font-semibold text-sm wordmark-spacing text-white leading-none">M O D U</span>
+        <span class="text-[7px] font-medium switzerland-spacing text-neutral-400 uppercase mt-0.5 tracking-luxury">SWITZERLAND</span>
       </div>
       <span class="w-1 h-1 rounded-full bg-white/40"></span>
       <span class="font-mono text-[11px] text-neutral-400">PITCH DECK &amp; AGENCY BRIEF</span>
@@ -237,16 +249,12 @@
             <span>HIGH-PERFORMANCE BUCCAL WELLNESS</span>
           </div>
 
-          <!-- Master Official Wordmark Lockup (100% Brand Guidelines Compliant) -->
-          <div class="mb-6 flex flex-col items-start">
-            <div class="font-bold text-6xl lg:text-7xl modu-logo-letters text-modu-charcoal leading-none select-none pl-0.5">
-              MODU
-            </div>
-            <div class="text-xs font-semibold modu-logo-sub text-modu-charcoal uppercase mt-3 pl-1 select-none">
-              SWITZERLAND
-            </div>
+          <!-- Brand Block (1:1 from 06_Digital_and_ECommerce/index.html) -->
+          <div class="mb-8 flex flex-col items-start">
+            <span class="font-sans font-semibold text-5xl lg:text-6xl wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+            <span class="text-xs font-medium switzerland-spacing text-modu-muted uppercase mt-2.5 tracking-luxury">SWITZERLAND</span>
             <!-- Kinetic Horizon Bar -->
-            <div class="w-48 h-1.5 bg-modu-emerald rounded-full mt-4"></div>
+            <div class="w-44 h-1.5 bg-modu-emerald rounded-full mt-4"></div>
           </div>
 
           <p class="text-2xl font-medium text-modu-charcoal mb-4 tracking-tight">
@@ -288,10 +296,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>01 / 13</span>
       </div>
@@ -343,10 +351,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>02 / 13</span>
       </div>
@@ -398,10 +406,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>03 / 13</span>
       </div>
@@ -486,10 +494,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>04 / 13</span>
       </div>
@@ -529,7 +537,10 @@
           <div class="p-5 rounded-xl bg-white border border-hairline">
             <span class="text-[10px] font-mono text-modu-muted uppercase block mb-1">02 / TYPOGRAPHY</span>
             <h4 class="font-bold text-sm text-modu-charcoal mb-2">Swiss Neo-Grotesk</h4>
-            <p class="text-xl font-bold tracking-tight text-modu-charcoal my-2">Instrument Sans</p>
+            <div class="flex flex-col items-start my-2">
+              <span class="font-sans font-semibold text-2xl wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+              <span class="text-[9px] font-medium switzerland-spacing text-modu-muted uppercase mt-1 tracking-luxury">SWITZERLAND</span>
+            </div>
             <p class="text-[11px] text-modu-muted leading-relaxed">In direkter Tradition der Zürcher Haas Unica. Monospace-Zahlen für technische Spezifikationen.</p>
           </div>
 
@@ -551,10 +562,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>05 / 13</span>
       </div>
@@ -645,10 +656,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>06 / 13</span>
       </div>
@@ -702,10 +713,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>07 / 13</span>
       </div>
@@ -763,10 +774,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>08 / 13</span>
       </div>
@@ -816,10 +827,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>09 / 13</span>
       </div>
@@ -876,10 +887,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>10 / 13</span>
       </div>
@@ -946,10 +957,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>11 / 13</span>
       </div>
@@ -1013,10 +1024,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>12 / 13</span>
       </div>
@@ -1065,7 +1076,10 @@
           <div class="w-full bg-white p-8 rounded-2xl border border-hairline shadow-lg flex flex-col justify-between">
             <div>
               <span class="text-xs font-mono text-modu-emerald font-bold block mb-1">KONTAKT &amp; PARTNERSCHAFT</span>
-              <h3 class="text-xl font-bold text-modu-charcoal mb-4">MODU SWITZERLAND AG</h3>
+              <div class="flex flex-col items-start mb-4">
+              <span class="font-sans font-semibold text-2xl wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+              <span class="text-[9px] font-medium switzerland-spacing text-modu-muted uppercase mt-1 tracking-luxury">SWITZERLAND AG</span>
+            </div>
               <p class="text-xs text-modu-muted mb-6 leading-relaxed">
                 Bahnhofstrasse / CH-8001 Zürich<br>
                 b2b@modu.swiss | www.modu.swiss
@@ -1082,10 +1096,10 @@
 
       <div class="flex items-center justify-between text-xs font-mono text-modu-muted pt-4 border-t border-hairline">
         <div class="flex items-center gap-2">
-          <span class="font-bold text-modu-charcoal tracking-widest">MODU</span>
-          <span class="text-[10px] tracking-wider text-neutral-400">SWITZERLAND AG</span>
+          <span class="font-sans font-semibold text-xs wordmark-spacing text-modu-charcoal leading-none">M O D U</span>
+          <span class="text-[8px] font-medium switzerland-spacing text-modu-muted uppercase tracking-luxury">SWITZERLAND AG</span>
           <span class="text-neutral-300">|</span>
-          <span class="text-[10px] text-neutral-500">MASTER PITCH DECK</span>
+          <span class="text-[10px] text-neutral-500 font-mono">MASTER PITCH DECK</span>
         </div>
         <span>13 / 13</span>
       </div>
