@@ -211,7 +211,7 @@ This document serves a dual commercial and creative purpose:
 * **Header:** `12 // THE FUTURE OF WELLNESS` | `THIRTY-FOUR ACCESSORIES GMBH // GLATTPARK`
 * **Title:** Die Zukunft der Nahrungsergänzung ist oral.
 * **Key Milestones Ahead:**
-  * Q4 2026: Commercial pilot batch production (2,400 cans/SKU) with Holda Pouches.
+  * Q4 2026: Commercial pilot batch production (2,400 cans/SKU) with qualified European toll manufacturer.
   * Agency handover for pre-press artwork and trademark filing (IGE / WIPO).
   * Initial 50-door retail placement across the Greater Zurich pharmacy network.
 * **Contact:** Thirty-Four Accessories GmbH, Thurgauerstrasse 117, 8152 Glattpark, Switzerland | `b2b@modu.swiss` | `www.modu.swiss`.
