@@ -1,8 +1,8 @@
 # MODU — SWITZERLAND // Master Pitch Deck & Design Agency Handover Brief
 **Category:** High-Performance Buccal Oral Wellness (0% Nicotine / 100% Functional)  
-**Corporate Entity:** MODU SWITZERLAND AG (i. Gr.), CH-8001 Zürich  
+**Corporate Entity & Brand Owner:** Thirty-Four Accessories GmbH (Brand: MODU®, Registered Trademark), Thurgauerstrasse 117, 8152 Glattpark, Switzerland  
 **Version:** 1.0 (Master Commercial & Creative Agency Commission Edition)  
-**Interactive Slide Deck (Local):** [`03_Commercial_and_Finance/pitch_deck.html`](file:///Users/berndaerni/dev/PouchProject/03_Commercial_and_Finance/pitch_deck.html)  
+**Interactive Slide Deck (Local):** [`03_Commercial_and_Finance/pitch_deck.html`](file:///Users/berndaerni/DEV/MODU/03_Commercial_and_Finance/pitch_deck.html)  
 **Live Public Slide Deck (HTTPS):** [https://brndrn.github.io/modu-pitch/](https://brndrn.github.io/modu-pitch/)  
 
 ---
@@ -20,7 +20,7 @@ This document serves a dual commercial and creative purpose:
 ## How to Present and Export (Google Drive & Print)
 
 ### Option A: Interactive Web Presentation
-* Open [`03_Commercial_and_Finance/pitch_deck.html`](file:///Users/berndaerni/dev/PouchProject/03_Commercial_and_Finance/pitch_deck.html) in any modern browser (Chrome, Safari, Arc, Edge).
+* Open [`03_Commercial_and_Finance/pitch_deck.html`](file:///Users/berndaerni/DEV/MODU/03_Commercial_and_Finance/pitch_deck.html) in any modern browser (Chrome, Safari, Arc, Edge).
 * **Keyboard Navigation:**
   * `→` / `Space` / `PageDown`: Next Slide
   * `←` / `PageUp`: Previous Slide
@@ -29,7 +29,7 @@ This document serves a dual commercial and creative purpose:
   * `P` or `PDF Export Button`: Opens the native browser print dialogue.
 
 ### Option B: Export as 16:9 Landscape PDF for Google Drive
-1. Open [`pitch_deck.html`](file:///Users/berndaerni/dev/PouchProject/03_Commercial_and_Finance/pitch_deck.html) in Google Chrome or Safari.
+1. Open [`pitch_deck.html`](file:///Users/berndaerni/DEV/MODU/03_Commercial_and_Finance/pitch_deck.html) in Google Chrome or Safari.
 2. Press **`Cmd + P`** (Mac) or **`Ctrl + P`** (Windows).
 3. In the Print Dialog:
    * **Destination:** *Save as PDF*
@@ -49,7 +49,7 @@ This document serves a dual commercial and creative purpose:
 * **Brand Tagline:** *Wirkung ohne Umwege.* (High-Performance Buccal Oral Wellness)
 * **Body:** Das erste hochalpine Schweizer Wellness-System im diskreten Buccal-Format. Klinisch dosierte Pflanzenextrakte direkt über die Mundschleimhaut in unter 5 Minuten im Körper. 0% Nikotin. 0% Tabak. 0 Zucker.
 * **Key Badges:** Category: Modern Oral OTC | Innovation: Sublingual / Buccal | Origin: Zurich, Switzerland
-* **Visual Asset:** Hero angle packshot ([`assets/packshots/packshot_angle_45.jpg`](file:///Users/berndaerni/dev/PouchProject/assets/packshots/packshot_angle_45.jpg)).
+* **Visual Asset:** Hero angle packshot ([`assets/packshots/packshot_angle_45.jpg`](file:///Users/berndaerni/DEV/MODU/assets/packshots/packshot_angle_45.jpg)).
 * **Speaker Notes:** "Welcome. Today we introduce MODU — Switzerland's answer to the modern consumer's demand for instant, functional wellness. We are moving beyond pills and energy drinks by pioneering the world's most convenient oral delivery format without a single milligram of nicotine."
 
 ---
@@ -107,19 +107,22 @@ This document serves a dual commercial and creative purpose:
 * **SKU 01 // CRAVE (Emerald Green // `#00A86B`):**
   * *Function:* Satiety, Sweet Craving Blocker & Jitter-Free Focus.
   * *Active Formula per Pouch:*
-    * Natural Anhydrous Caffeine: 40 mg (smooth alertness)
+    * Natural Caffeine: 40 mg (smooth alertness & metabolic activation)
     * L-Theanine: 60 mg (1.5:1 ratio to prevent jitters/spikes)
-    * Gymnema Sylvestre (75% gymnemic acids): 25 mg (temporarily blocks sweet taste receptors)
-    * Vitamin B12 (Methylcobalamin): 5 mcg (200% NRV)
+    * Affron® Saffron Extract: 14 mg (clinically proven anti-snacking satiety)
+    * Gymnema Sylvestre (>25% gymnemic acids): 15 mg (blocks sweet taste receptors)
+    * Chromium Picolinate: 25 mcg Cr (insulin sensitivity anchor)
+    * Sodium Gluconate: 10 mg (T2R pharmacological bitter receptor blocker)
   * *Target:* Intermittent fasters, diet management, desk professionals.
 * **SKU 02 // MOTION (Warm Golden Amber // `#FFB800`):**
-  * *Function:* Fast Travel Equilibrium & Nausea Relief.
+  * *Function:* Fast Travel Equilibrium & Nausea Relief (Swiss Pharmacy Exclusive).
   * *Active Formula per Pouch:*
-    * Standardized Gingerols (20% extract): 30 mg (antiemetic efficacy)
-    * Pyridoxine HCl (Vitamin B6): 5 mg (neuro-equilibrium)
-    * L-Theanine: 50 mg (calms nervous stomach)
-    * Lemon Balm Extract (*Melissa officinalis*): 15 mg
-    * Natural Menthol: 15 mg (cooling reflex)
+    * β-Cyclodextrin Ginger Complex (≥15% gingerols): 40 mg (≥6.0 mg active gingerols, zero mucosal sting)
+    * Cold-Pressed Meyer Lemon Terpenes (Limonene/Citral): 15 mg (instant olfactory-vagal antiemetic reflex)
+    * Pyridoxine HCl (Vitamin B6): 5 mg (Swiss VNem statutory max, 357% NRV)
+    * L-Theanine: 50 mg (calms vestibular panic & hyperventilation)
+    * Lemon Balm Extract (*Melissa officinalis* 4:1): 15 mg (gastric antispasmodic)
+    * Tamed Natural L-Menthol: 3.5 mg (gentle trigeminal cooling)
   * *Target:* Serpentine mountain drivers, flights, train commuters, nautical travel.
 
 ---
@@ -132,7 +135,7 @@ This document serves a dual commercial and creative purpose:
   * **Layer 2: Cellulose Matrix (MCC PH-101):** High-capillary carrier structure engineered for instantaneous saliva wetting.
   * **Layer 3: Bioactive Micro-Pellets:** Standardized botanical extracts with sodium bicarbonate buffer (pH 7.8 optimum for transmucosal permeability).
   * **Layer 4: Ultrasonic Perimeter Seal:** Adhesive-free high-frequency thermal welding; 100% leak-proof in oral use.
-* **Visual Asset:** Scientific exploded pouch decomposition ([`assets/packshots/pouch_decomposition.jpg`](file:///Users/berndaerni/dev/PouchProject/assets/packshots/pouch_decomposition.jpg)).
+* **Visual Asset:** Scientific exploded pouch decomposition ([`assets/packshots/pouch_decomposition.jpg`](file:///Users/berndaerni/DEV/MODU/assets/packshots/pouch_decomposition.jpg)).
 
 ---
 
@@ -144,7 +147,7 @@ This document serves a dual commercial and creative purpose:
   * **Material:** Injection-molded Food-Grade Polypropylene (PP 05), 100% recyclable.
   * **Integrated Catch Lid:** Patented secondary disposal chamber in lid for hygienic disposal of used portions.
   * **Seal:** Full-wrap 22 mm BOPP side banderole with tamper-evident perforation.
-* **Visual Assets:** Studio front and side packshots ([`assets/packshots/packshot_front.jpg`](file:///Users/berndaerni/dev/PouchProject/assets/packshots/packshot_front.jpg), [`assets/packshots/packshot_side.jpg`](file:///Users/berndaerni/dev/PouchProject/assets/packshots/packshot_side.jpg)).
+* **Visual Assets:** Studio front and side packshots ([`assets/packshots/packshot_front.jpg`](file:///Users/berndaerni/DEV/MODU/assets/packshots/packshot_front.jpg), [`assets/packshots/packshot_side.jpg`](file:///Users/berndaerni/DEV/MODU/assets/packshots/packshot_side.jpg)).
 
 ---
 
@@ -152,10 +155,10 @@ This document serves a dual commercial and creative purpose:
 * **Header:** `08 // RETAIL MERCHANDISING` | `POINT-OF-SALE VELOCITY ENGINE`
 * **Title:** Minimaler Platzbedarf. Maximale Checkout-Frequenz.
 * **Retail Mechanics:**
-  * **Ultra-Compact Footprint ($155 \times 150 \times 180\,\text{mm}$):** Engineered specifically for Swiss pharmacy and kiosk checkouts; sits directly adjacent to Worldline payment terminals without obstructing staff view.
+  * **Ultra-Compact Footprint (155 × 150 × 180 mm):** Engineered specifically for Swiss pharmacy and kiosk checkouts; sits directly adjacent to Worldline payment terminals without obstructing staff view.
   * **Instant Benefit Recognition (<2 Seconds):** Color-coded lanes with bold benefit headers ("Heisshunger-Stopp" / "Schnelle Reisehilfe").
   * **The "Free CDU" Model:** Provided 100% free with the 24-can Starter Kit, removing all onboarding friction for retailers.
-* **Visual Asset:** Master B2B display photo ([`assets/retail_cdu/retail_display_cdu_benefit_focused.jpg`](file:///Users/berndaerni/dev/PouchProject/assets/retail_cdu/retail_display_cdu_benefit_focused.jpg)).
+* **Visual Asset:** Master B2B display photo ([`assets/retail_cdu/retail_display_cdu_benefit_focused.jpg`](file:///Users/berndaerni/DEV/MODU/assets/retail_cdu/retail_display_cdu_benefit_focused.jpg)).
 
 ---
 
@@ -197,7 +200,7 @@ This document serves a dual commercial and creative purpose:
 * **Commission Deliverables Checklist:**
   1. **Logo & Wordmark Geometry:** Micro-kerning of `M O D U`, vector perfection for print/digital, secondary Swiss alpine signet/symbol.
   2. **Corporate Design System:** Type hierarchy & font licensing, color token scale across 5 product tiers, master Brand Guidelines book.
-  3. **Packaging Pre-Press (Dielines):** Production-ready print artwork for Top Disc (Catch Lid), Side Banderole ($70 \times 22\,\text{mm}$), and Bottom Legal Table for 5 SKUs.
+  3. **Packaging Pre-Press (Dielines):** Production-ready print artwork for Top Disc (Catch Lid), Side Banderole (70 × 22 mm), and Bottom Legal Table for 5 SKUs.
   4. **Finishing Specifications:** Soft-touch matte varnish, high-gloss spot UV on kinetic horizon bars, tamper seal micro-perforations.
   5. **POS & Merchandising Design:** CAD cutting templates for premium acrylic and cardboard 12-can Counter Display Units.
   6. **Digital Design System:** Figma component library for headless Shopify Plus storefront.
@@ -205,22 +208,22 @@ This document serves a dual commercial and creative purpose:
 ---
 
 ### Slide 13: Vision & Next Steps
-* **Header:** `12 // THE FUTURE OF WELLNESS` | `MODU SWITZERLAND AG // ZURICH`
+* **Header:** `12 // THE FUTURE OF WELLNESS` | `THIRTY-FOUR ACCESSORIES GMBH // GLATTPARK`
 * **Title:** Die Zukunft der Nahrungsergänzung ist oral.
 * **Key Milestones Ahead:**
   * Q4 2026: Commercial pilot batch production (2,400 cans/SKU) with Holda Pouches.
   * Agency handover for pre-press artwork and trademark filing (IGE / WIPO).
   * Initial 50-door retail placement across the Greater Zurich pharmacy network.
-* **Contact:** MODU SWITZERLAND AG, Bahnhofstrasse, CH-8001 Zürich | `b2b@modu.swiss` | `www.modu.swiss`.
+* **Contact:** Thirty-Four Accessories GmbH, Thurgauerstrasse 117, 8152 Glattpark, Switzerland | `b2b@modu.swiss` | `www.modu.swiss`.
 
 ---
 
 ## Technical Specifications for the Design Agency
 
 ### A. Dimensions & Printing Tolerances
-* **Top Label Disc:** Diameter: $54.0\,\text{mm}$ (Circle cut with $1.5\,\text{mm}$ bleed). Substrate: Gloss or Satin BOPP vinyl with permanent acrylic adhesive.
-* **Side Wrap Banderole:** $214.0\,\text{mm} \times 20.5\,\text{mm}$ (Wrap length + $6.0\,\text{mm}$ overlap). Substrate: $50\,\mu\text{m}$ white BOPP film.
-* **Bottom Base Label:** Diameter: $64.0\,\text{mm}$. Substrate: Matte paper-feel synthetic with high-opacity backing.
+* **Top Label Disc:** Diameter: 54.0 mm (Circle cut with 1.5 mm bleed). Substrate: Gloss or Satin BOPP vinyl with permanent acrylic adhesive.
+* **Side Wrap Banderole:** 214.0 mm × 20.5 mm (Wrap length + 6.0 mm overlap). Substrate: 50 µm white BOPP film.
+* **Bottom Base Label:** Diameter: 64.0 mm. Substrate: Matte paper-feel synthetic with high-opacity backing.
 * **Tamper Seal Slits:** Dual micro-perforation lines at 9 o'clock and 3 o'clock across the lid-canister separation line.
 
 ### B. Color Values (CMYK / Pantone / Hex)
@@ -231,4 +234,4 @@ This document serves a dual commercial and creative purpose:
 * **Hairline Border:** `#E6E0D4` | CMYK: `8, 7, 12, 0`
 
 ---
-*MODU SWITZERLAND AG — All rights reserved.*
+*Thirty-Four Accessories GmbH (Brand: MODU SWITZERLAND) — All rights reserved.*
