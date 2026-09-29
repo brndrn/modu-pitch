@@ -214,7 +214,7 @@ This document serves a dual commercial and creative purpose:
   * Q4 2026: Commercial pilot batch production (2,400 cans/SKU) with qualified European toll manufacturer.
   * Agency handover for pre-press artwork and trademark filing (IGE / WIPO).
   * Initial 50-door retail placement across the Greater Zurich pharmacy network.
-* **Contact:** Thirty-Four Accessories GmbH, Thurgauerstrasse 117, 8152 Glattpark, Switzerland | `b2b@modu.swiss` | `www.modu.swiss`.
+* **Contact:** Thirty-Four Accessories GmbH, Thurgauerstrasse 117, 8152 Glattpark, Switzerland | `b2b@modupouch.com` | `https://modupouch.com`.
 
 ---
 
